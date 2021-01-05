@@ -22,13 +22,15 @@
     display: flex;
     flex-direction: column;
     width: 150px;
-    height: 230px;    
+    height: 250px;    
    
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
-    background-color: rgba(102, 0, 102, 0.3);
-    z-index: -2;
+    background-color: rgba(102, 0, 102, 0.2);
+   
+    
+    
 }
 
 .card:hover {
@@ -38,6 +40,7 @@
 .gameCoverContainer {
     display: flex;
     justify-content: center;
+    cursor: pointer;
 
     
 }
@@ -47,10 +50,16 @@
     filter: drop-shadow(5px 5px 5px rgba(102, 0, 102, 0.8));
     padding:0px;
     margin-bottom: 15px;
-    z-index: -1;
-   
-    
 }
+
+.detailLink:hover {
+    background-color: rgba(102, 0, 102, 0);
+    filter: drop-shadow(5px 5px 5px rgba(102, 0, 102, 0.8));
+    padding: 0px;
+}
+
+
+
 
 .cardDetails {
     display: flex;
@@ -77,73 +86,14 @@ button {
     padding: 4px;
     margin-top: 5px;
     border-radius: 5px;
-
+    cursor: pointer;
+    
 }
 
-
-
-
-
-
-/***********RESPONSIVE**************/
-
-  @media (max-width: 952px) {
- 
-    
-    .logo {
-        color:red;
-        margin-left: 10px;
-    }
-
-    .toggle {
-        display: block;
-    }
-
-    nav ul {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background:white;
-        top: 65px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-
-    nav ul li {
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-
-    nav ul li a {
-        font-size: 20px;
-    }
-
-    a:hover, a.active{
-        color: white;
-        transition: .1s;
-        background-color: rgb(102,0, 102);
-        border-radius: 5px;
-        padding: 8px;
-    }
-
-    #check:checked ~ ul {
-        left: 0;
-    }
-
-  }
-
-
-
-
-
-
-
-
-
-
-
+button:hover {
+    color:  rgb(102,0, 102);
+    background-color: white;
+}
 
 
 

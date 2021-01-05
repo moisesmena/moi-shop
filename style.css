@@ -21,6 +21,7 @@ nav {
     padding: 8px;
     width: 100%;
     box-shadow: 2px 0.1px 10px 0.1px rgb(102,0, 102);
+    z-index: 1;
     
 
 }
@@ -29,7 +30,11 @@ nav {
     height: 45px;
     margin-left: 30px;
     cursor: pointer;
-    
+}
+
+.logo:hover {
+    background-color: white;
+    padding: 0px;
 }
 
 nav ul {
