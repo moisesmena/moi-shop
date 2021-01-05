@@ -1,0 +1,70 @@
+
+
+
+
+
+.products {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+    padding-top: 85px;    
+}
+
+.products .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    width: 200px;
+    height: 280px;
+}
+
+
+
+.products .card img {
+    justify-self: center;
+    height: 155px;
+    width: 130px;
+    padding: 0;
+
+}
+
+
+
+.content {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    align-self: flex-end;
+
+
+}
+
+
+.details {
+    color: green;
+
+}
+
+.price {
+    color: green; 
+    font-size: 20px;
+
+}
+
+.buttons {
+    align-self: center;
+    margin: 2px;
+    background-color: red;
+
+}
+
+
+
+
+
+
+
