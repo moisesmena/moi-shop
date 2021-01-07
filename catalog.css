@@ -21,9 +21,7 @@
   flex-direction: column;
   width: 180px;
   height: 290px;
-
   padding: 10px;
-
   margin: 15px;
   background-color: white;
   border-right: 1px solid rgba(102, 0, 102, 0.2);
@@ -84,7 +82,32 @@ button:hover {
   background-color: white;
 }
 
-h4 {
-  width: 180px;
-  height: 40px;
+
+
+
+/***********RESPONSIVE**************/
+
+@media (max-width: 952px) {
+
+    .productsContainer {
+        display: flex;
+        width: 404px;
+        height: 700px;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 400px;      
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        height: 290px;
+    }    
+
+    h4 {
+        font-size: 15px;
+    }
+
+   
 }

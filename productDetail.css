@@ -99,19 +99,25 @@ button:hover {
 
 .toggle1 {
   display: flex;
-  display: flex;
   justify-content: center;
   color: rgb(102, 0, 102);
   font-size: 30px;
 }
 
+.fa-arrow-left {
+    display: flex;
+    position: absolute;
+}
+
+h4 {
+    font-size: 20px;
+    padding-left: 40px;
+}
+
 /***********RESPONSIVE**************/
 
 @media (max-width: 952px) {
-  .logo {
-    color: red;
-    margin-left: 10px;
-  }
+
 
   .toggle {
     display: block;

@@ -1,6 +1,6 @@
 # Moi Online Videogames Shop
 
-A part of the Factoríaf5 bootcamp exercices, I created this is a template for an online videogames shop.
+A part of the Factoríaf5 Bootcamp projects, I created this template for an online videogames shop.
 
 Live preview here: [https://mmena4.github.io/moi-shop/]( https://mmena4.github.io/moi-shop/)
 
