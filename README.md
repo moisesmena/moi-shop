@@ -31,11 +31,11 @@ $ git clone https://github.com/mmena4/moi-shop.git
 
 ## Contributing 🖇️
 
-Happy to grow the 'JavaScript Chronometer' project! Want to contribute? please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on community code of conduct, and the process for submitting pull requests to me.
+Happy to grow the 'Moi Shopr' project! Want to contribute? please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on community code of conduct, and the process for submitting pull requests to me.
 
 ## Authors ✒️
 
-* **Moisés Mena** - *Whole project* - [PurpleBooth](https://github.com/mmena4)
+* **Moisés Mena** - *Whole project* - [Moises Git Hub](https://github.com/mmena4)
 
 
 ## License 📄
