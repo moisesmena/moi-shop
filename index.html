@@ -1,44 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/e5f08e8b31.js" crossorigin="anonymous"></script>
     <title>Moi Shop</title>
-</head>
 
+  </head>
 
-
-<body>
-    <nav> 
-        <input type="checkbox" id="check">
-        <label for="check" class="toggle">
-            <i class="fas fa-bars"></i>
-        </label>
-        <img class="logo" src="assets/logo.jpg" alt="Moi Shop Logo">
-        <ul class="navbar__menu">
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="catalog.html">Catalog</a></li>
-            <li><a href="#">My Card</a></li>
-        </ul>
+  <body>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="toggle">
+        <i class="fas fa-bars"></i>
+      </label>
+      <img class="logo" src="assets/logo.jpg" alt="Moi Shop Logo" />
+      <ul class="navbar__menu">
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="catalog.html">Catalog</a></li>
+        <li><i class="fas fa-shopping-cart"></i><span class="cart-counter" id="cardDisplay">0</span></li>
     </nav>
 
 
+    <div class="sliderContainer">
+      <img
+        class="mySlides"
+        src="https://www.gameprotv.com/archivos/202010/marvel-s-spider-man-miles-morales-principal.jpg"
+      />
+      <img
+        class="mySlides"
+        src="https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fstar-wars-jedi-fallen-order%2Fhome%2FSWFJO_Standard_Keyart_1920x1080-1920x1080-7a42241ea451299ac73036ac61eb73c1184753e0.jpg"
+      />
+      <img
+        class="mySlides"
+        src="https://www.nintendo.com/content/dam/noa/es_LA/games/switch/m/mario-kart-8-deluxe-switch/mario-kart-8-deluxe-switch-hero.jpg"
+      />
+      <img
+        class="mySlides"
+        src="https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fgrand-theft-auto-v%2Fhome%2FGTAV_EGS_Artwork_1920x1080_Hero-Carousel_V06-1920x1080-1503e4b1320d5652dd4f57466c8bcb79424b3fc0.jpg?h=1080&resize=1&w=1920"
+      />
 
+        <button type="button" class="buttonBuy" id="addtocard">Add to Cart</button>
+    </div>
 
-
+    <div class="introTextContainer">
+      <div class="text">
+      <h2>Welcome to Moi-Shop, your videogames online store!</h2>
+      <h5>Buy games for Xbox One, Xbox 360, PS4, PS3, PS2, PS Vita, PSP, Nintendo Switch, Wii, Wii U, 3DS, and DS. Here, you can purchase used video games for current generation systems at discount prices. We’re constantly getting new inventory and need to make room, so you’ll always find great deals when you buy video games online at GameFly. Cases, manuals, and codes are included with each game unless you buy a game sold as Disc Only. As always, your purchase is guaranteed.</h5>
+    </div>
+    
     <footer>
-       
-        <h5 class="copyRight">© Moi Shop 2020</h5>
+      <h5 class="copyRight">© Moi Shop 2020</h5>
     </footer>
 
-
-
-
-
-
-
-   
-</body>
+    <script src="script.js"></script>
+    <script src="scriptCard.js"></script>
+  </body>
 </html>

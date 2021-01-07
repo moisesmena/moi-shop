@@ -1,110 +1,90 @@
 * {
-    margin:0px;
-    padding:0px;
-    text-decoration: none;
-
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
 }
 
-
-
 .productsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    padding-top: 85px;    
-    padding-bottom: 60px;
-    padding-left: 40px;
-    padding-right: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 780px;
+  height: 700px;
+  margin: auto;
+  padding-top: 85px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    width: 150px;
-    height: 250px;    
-   
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-    background-color: rgba(102, 0, 102, 0.2);
-   
-    
-    
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 290px;
+
+  padding: 10px;
+
+  margin: 15px;
+  background-color: white;
+  border-right: 1px solid rgba(102, 0, 102, 0.2);
 }
 
 .card:hover {
-    box-shadow: 2px 2px 2px 2px rgba(102, 0, 102, 0.8);
+  box-shadow: 2px 2px 2px 2px rgba(102, 0, 102, 0.8);
 }
 
 .gameCoverContainer {
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-
-    
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .gameCover {
-    width: 120px;
-    filter: drop-shadow(5px 5px 5px rgba(102, 0, 102, 0.8));
-    padding:0px;
-    margin-bottom: 15px;
+  width: 120px;
+  height: 140px;
+  filter: drop-shadow(5px 5px 5px rgba(102, 0, 102, 0.8));
+  padding: 0px;
+  margin-bottom: 15px;
 }
 
 .detailLink:hover {
-    background-color: rgba(102, 0, 102, 0);
-    filter: drop-shadow(5px 5px 5px rgba(102, 0, 102, 0.8));
-    padding: 0px;
+  background-color: rgba(102, 0, 102, 0);
+  filter: drop-shadow(5px 5px 5px rgba(102, 0, 102, 0.8));
+  padding: 0px;
 }
 
-
-
-
 .cardDetails {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
 }
 
 .price {
-    color: black;
-    margin-top: 5px;
-    margin-bottom: 5px;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .buttons {
-    display: flex;
-    justify-content: space-between;
-    
+  display: flex;
+  justify-content: right;
 }
 
 button {
-    color: white;
-    background-color: rgb(102,0, 102);
-    padding: 4px;
-    margin-top: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    
+  color: white;
+  background-color: rgb(102, 0, 102);
+  padding: 4px;
+  margin-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 button:hover {
-    color:  rgb(102,0, 102);
-    background-color: white;
+  color: rgb(102, 0, 102);
+  background-color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+h4 {
+  width: 180px;
+  height: 40px;
+}
