@@ -2,7 +2,7 @@
 
 A part of the Factoríaf5 Bootcamp projects, I created this template for an online videogames shop.
 
-Live preview here: [https://mmena4.github.io/moi-shop/]( https://mmena4.github.io/moi-shop/)
+Live preview here: [https://moisesmena.github.io/moi-shop/]( https://moisesmena.github.io/moi-shop/)
 
 ## Getting Started 🚀
 
